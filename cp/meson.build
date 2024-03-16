@@ -1,0 +1,4 @@
+executable(
+    'cp',
+    'main.c'
+)
