@@ -7,3 +7,4 @@ project('os_hw1', 'c',
 add_global_arguments('-pedantic', language: 'c')
 
 subdir('cp')
+subdir('time')
