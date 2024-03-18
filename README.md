@@ -58,3 +58,16 @@ diff cp/file.txt cp/test.txt
 [172589] close(4) = 0
 [172589] exit_group(0) = ?
 ```
+
+## `time`
+
+```bash
+./build/time/time_shm ls
+# build  builddir  cp  meson.build  README.md  time
+# 1477us
+
+./build/time/time_pipe ls
+# build  builddir  cp  meson.build  README.md  time
+# 1409us
+```
+
