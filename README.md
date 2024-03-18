@@ -1,9 +1,15 @@
+## Written assignments
+
+See `written/hw.md`
+
+## Programming assignments
+
 ```
 meson setup build
 meson compile -C build
 ```
 
-## `cp`
+### cp
 
 ```
 ./build/cp/cp cp/file.txt cp/test.txt
@@ -59,7 +65,7 @@ diff cp/file.txt cp/test.txt
 [172589] exit_group(0) = ?
 ```
 
-## `time`
+### time
 
 ```bash
 ./build/time/time_shm ls
@@ -70,4 +76,3 @@ diff cp/file.txt cp/test.txt
 # build  builddir  cp  meson.build  README.md  time
 # 1409us
 ```
-
