@@ -3,7 +3,7 @@
 
   - (a) How does the CPU interface with the device to coordinate the transfer?
 
-    # TODO
+    The CPU coordinates the transfer with the device through control signals and memory-mapped I/O.
 
   - (b) How does the CPU know when the memory operations are complete?
 
@@ -13,7 +13,7 @@
     Does this process interfere with the execution of the user programs? If so, describe what forms
     of interference are caused.
 
-    # TODO
+    If the DMA controller and the CPU compete for access to the system bus, it can cause interference.
 
 - 2.15: What are the two models of _interprocess communication_? What are the strengths and weakness
   of the two approaches?

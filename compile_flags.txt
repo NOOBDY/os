@@ -1,0 +1,2 @@
+-I/lib/modules/6.8.1-arch1-1/build/include
+-I/lib/modules/6.8.1-arch1-1/build/arch/x86/include
