@@ -1,0 +1,4 @@
+executable(
+    'sort',
+    'main.c'
+)

@@ -8,3 +8,5 @@ add_global_arguments('-pedantic', language: 'c')
 
 subdir('cp')
 subdir('time')
+subdir('sudoku')
+subdir('sort')
