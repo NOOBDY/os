@@ -1,0 +1,4 @@
+executable(
+    'rr',
+    'main.c'
+)

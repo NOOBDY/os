@@ -1,0 +1,4 @@
+executable(
+    'fib',
+    'main.c'
+)
