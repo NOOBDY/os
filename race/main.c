@@ -8,10 +8,11 @@ int available_resources = MAX_RESOURCES; /* (a) potential race without mutex */
 pthread_mutex_t mutex;
 
 int decrease_count(int count) {
-  if (available_resources < count)
+  pthread_mutex_lock(&mutex);
+  if (available_resources < count) {
+    pthread_mutex_unlock(&mutex);
     return -1;
-  else {
-    pthread_mutex_lock(&mutex);
+  } else {
     available_resources -= count; /* (b) potential race here */
     pthread_mutex_unlock(&mutex);
     return 0;
