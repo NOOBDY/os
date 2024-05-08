@@ -1,0 +1,4 @@
+executable(
+    'page',
+    'main.c'
+)

@@ -1,0 +1,4 @@
+executable(
+    'bridge',
+    'main.c'
+)
